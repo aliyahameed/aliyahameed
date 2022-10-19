@@ -1,0 +1,22 @@
+--create database schoolmanagement;
+--use schoolmanagement;
+--create table classroom3(ID nvarchar(200),Name varchar(200),Batch nvarchar(200),Year int,primary key (ID));
+--select column_name classroom3
+--from INFORMATION_SCHEMA.COLUMNS
+--where table_name='classroom3'
+--order by ORDINAL_POSITION
+--create table studentdata1(ID nvarchar(200) foreign key REFERENCES classroom3(ID),Name varchar(200),classteacher varchar(200),Address nvarchar(200),joindate int,personalno int,primary key (classteacher));
+--select column_name studentdata1
+--from INFORMATION_SCHEMA.COLUMNS
+--where table_name='studentdata1'
+--order  by ORDINAL_POSITION
+--create table classteacherdata(Name varchar(200) foreign key references studentdata1(classteacher),Phoneno int,Address nvarchar(200),Emailid nvarchar(200));
+--select column_name classteacherdata
+--from INFORMATION_SCHEMA.COLUMNS
+--where table_name='classteacherdata'
+--order  by ORDINAL_POSITION
+--create table coursedetails(ID nvarchar(200) foreign key references classroom3(ID),TeacherName varchar(200) foreign key references studentdata1(classteacher),subject varchar(200),mark int,Attendance int);
+--select column_name coursedetails
+--from INFORMATION_SCHEMA.COLUMNS
+--where table_name='coursedetails'
+--order  by ORDINAL_POSITION
