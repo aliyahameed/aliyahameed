@@ -1,0 +1,32 @@
+/* common */
+img{width: 100%;}
+
+
+
+/* home page */
+.first img{padding-bottom: 10px;} 
+h1{ color: rgb(110, 110, 181);}
+.second li{list-style-type: none;}
+
+
+
+
+
+
+/* about page */
+h1{text-align: center;}
+
+.bgcolor{ background-image:url(../img/imd.jpg);height: 256px;text-align: center; padding-top: 80px;}
+img{padding-right: 40px; padding-top: 40px; padding-bottom: 10px;}
+.s1{ padding-top: 60px;}
+.S2{ text-align: center; padding-top: 40px;}
+.s3{padding-top: 60px;}
+.s5{padding-top: 60px;}
+
+/* service page*/
+h1{text-align: center;}
+.bgcolor{ background-image:url(../img/imd.jpg);height:256px;text-align:center; padding-top: 80px;}
+img{padding-right: 40px; padding-top: 40px; padding-bottom: 10px;}
+
+/* contact page*/
+.s1{padding-top: 40px;}
